@@ -23,9 +23,15 @@ shinyUI(pageWithSidebar(
   
   # Show the caption and plot of the requested variable against mpg
   mainPanel(
+    h4("Source code: https://github.com/jensschum/ddp_week4"),
+    h4("Presentation: http://rpubs.com/schujen/dpp_week4"),
+    br(),
+    h4("Linear Regression Plot"),
     plotOutput("plot"),
     h4(textOutput("equation")),
     h4(textOutput("rsquared")),
+    br(),
+    h4("Residual Plot"),
     plotOutput("plot_resid")
   )
 ))

@@ -11,7 +11,9 @@ Introduction
 
 - A shiny app was developed to conduct regression analyses using some of the variables in the "mtcars" data set
 
-- The shiny app can be accessed using the following link:
+- The shiny app can be accessed using the following link: https://jensschum.shinyapps.io/ddp_week4/
+
+- The source code is provided on Github: https://github.com/jensschum/ddp_week4
   
 - A select box on the left side in the user interface can be used to select the variable for which the linear regression should be conducted.
 
